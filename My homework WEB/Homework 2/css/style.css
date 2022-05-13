@@ -1,0 +1,150 @@
+@font-face {
+    font-family: "MyriadPro";
+    src: url("../fonts/MyriadPro-Regular.otf");
+}
+
+body{
+    font-family: "MyriadPro";
+    background: #000;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    margin: 0;
+}
+
+.container{
+    max-width: 1280px;
+    background: #fff;
+    margin: 0 auto;
+}
+
+.header-content{
+    margin-bottom: 50px;
+}
+
+.header-content-logo-section{
+    padding: 20px 0 15px 0;
+}
+
+.header-content-logo__text{
+    font-size: 80px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.header-content-logo__text__color{
+    color: #4bcaff;
+}
+
+.header-content-list-section{
+    background: #35444f;
+    height: 70px;
+}
+
+.header-content-list{
+    text-align: center;
+}
+
+.header-content-list__link{
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header-content-list__item{
+    display: inline-block;
+    padding: 20px 50px 0 0;
+    font-size: 24px;
+}
+
+.main-content{
+    background: #4bcaff; 
+    height: 810px;
+    margin-bottom: 50px;
+}
+
+.main-content-list-section{
+    width: 345px;
+    height: 400px;
+    display: inline-block;
+    position: relative;
+    /* bottom: 254px; */
+    border: 1px solid #35444f;
+    
+}
+
+.main-content-list{
+    list-style: none;
+    
+}
+
+.main-content-list-item{
+    padding-bottom: 45px;
+}
+
+.main-content-list-link{
+    text-decoration: none;
+    font-size: 27px;
+    color: #495863;
+}
+
+.main-content-section{
+    
+}
+
+.main-content-img-section{
+    width: 885px;
+    height: 530px;
+    position: relative;
+    left: 393px;
+    bottom: 402px;
+    border: 1px solid #35444f;
+}
+
+.main-content-img-section__img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-content-img{
+    
+}
+
+.main-content-text-section{
+    width: 800px;
+    height: auto;
+    text-align: justify;
+    position: relative;
+    left: 430px;
+    bottom: 380px;
+}
+
+.main-content-text{
+    font-size: 18px;
+}
+
+.footer-content{
+    background: #b4b7ba;
+}
+
+.footer-content-section{
+    display: inline-block;
+}
+
+.footer-content-list{
+
+}
+
+.footer-content-item{
+    display: inline-block;
+}
+
+.footer-content-text{
+    
+}
